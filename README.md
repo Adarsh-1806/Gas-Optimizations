@@ -1,9 +1,8 @@
-
 # Gas-Optimizations-checklist
 
 This Repository contains gas optimised techniques for solidity smart contracts.
 
-Packing of storage variables
+[Packing of storage variables](Packing-of-storage-variables.md)
 
 Strcut Packing
 
