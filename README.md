@@ -2,7 +2,7 @@
 
 This Repository contains gas optimised techniques for solidity smart contracts.
 
-[Packing of storage variables](Packing-of-storage-variables.md)
+[Packing of storage variables](checklist/Packing-of-storage-variables.md)
 
 Strcut Packing
 
@@ -113,3 +113,7 @@ Use bytesX instead of string
 Use “uint256” instead of “bool”
 
 Use “indexed” for uint, bool, and address
+
+## Disclaimer
+
+This repository may include content sourced from public GitHub repositories and other open resources.
