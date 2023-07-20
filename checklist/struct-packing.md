@@ -20,6 +20,6 @@ Example of an optimized struct:
 ```solidity
 struct MyStruct {
   uint96 myTime;        //slot1
-  address myAddress;    //slot2
+  address myAddress;    //slot1
 }
 ```
