@@ -9,7 +9,7 @@ If variables occupying the same slot are both written the same function or by th
 ### Before
 
 ```solidity
-    contract MyContract{
+    contract Test1{
         uint32 x;   //storage slot 1
         uint256 y;  //storage slot 2
         uint32 z;   //storage slot 3
@@ -19,7 +19,7 @@ If variables occupying the same slot are both written the same function or by th
 ### After
 
 ```solidity
-    contract MyContract{
+    contract Test2{
         uint256 y;  //storage slot 1
         uint32 x;   //storage slot 2
         uint32 z;   //storage slot 2

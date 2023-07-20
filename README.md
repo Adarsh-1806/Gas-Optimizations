@@ -4,7 +4,7 @@ This Repository contains gas optimised techniques for solidity smart contracts.
 
 [Packing of storage variables](checklist/Packing-of-storage-variables.md)
 
-Strcut Packing
+[Strcut Packing](checklist/struct-packing.md)
 
 Using Addresses with lots of leading zeroes
 
