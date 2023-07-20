@@ -12,3 +12,5 @@ for(uint i=0; i<x.length; i++) {
 //good
 for(uint i; i<x.length; i++){
 ```
+
+by the way you should also store length into memory instead of finding in every iteration.
