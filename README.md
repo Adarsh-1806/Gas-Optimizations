@@ -6,11 +6,11 @@ This Repository contains gas optimised techniques for solidity smart contracts.
 
 [Strcut Packing](checklist/struct-packing.md)
 
-Using Addresses with lots of leading zeroes
+[Using Addresses with lots of leading zeroes](checklist/leading-zeros.md)
 
-Use Local Variable instead of multipule access to mapping/array
+[Use Local Variable instead of multipule access to mapping/array](checklist/local-memory-variable.md)
 
-Don't Initialize Variables with Default Value
+[Don't Initialize Variables with Default Value](checklist/default-assign.md)
 
 Constructor parameters should be avoided when possible
 
