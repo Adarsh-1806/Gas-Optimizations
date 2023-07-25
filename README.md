@@ -2,121 +2,121 @@
 
 This Repository contains gas optimised techniques for solidity smart contracts.
 
-[Packing of storage variables](checklist/Packing-of-storage-variables.md)
+1. [Packing of storage variables](checklist/Packing-of-storage-variables.md)
 
-[Strcut Packing](checklist/struct-packing.md)
+2. [Strcut Packing](checklist/struct-packing.md)
 
-[Using Addresses with lots of leading zeroes](checklist/leading-zeros.md)
+3. [Using Addresses with lots of leading zeroes](checklist/leading-zeros.md)
 
-[Use Local Variable instead of multipule access to mapping/array](checklist/local-memory-variable.md)
+4. [Use Local Variable instead of multipule access to mapping/array](checklist/local-memory-variable.md)
 
-[Don't Initialize Variables with Default Value](checklist/default-assign.md)
+5. [Don't Initialize Variables with Default Value](checklist/default-assign.md)
 
-[Use External instead of Public if possible](checklist/external-instead-of-public.md)
+6. [Use External instead of Public if possible](checklist/external-instead-of-public.md)
 
-[Use indexed events](checklist/use-indexed-events.md)
+7. [Use indexed events](checklist/use-indexed-events.md)
 
-Constructor parameters should be avoided when possible
+8. Constructor parameters should be avoided when possible
 
-Multiple address mappings can be combined into a single mapping of an address to a struct, where appropriate
+9. Multiple address mappings can be combined into a single mapping of an address to a struct, where appropriate
 
-Use 10e18 instead of 10\*\*X
+10. Use 10e18 instead of 10\*\*X
 
-uints/ints smaller than 32 bytes incurs overhead
+11. uints/ints smaller than 32 bytes incurs overhead
 
-Instead of address(0) write it out, it saves gas
+12. Instead of address(0) write it out, it saves gas
 
-[Mappings are cheaper than Arrays!](checklist/mapping-instead-of-array.md)
+13. [Mappings are cheaper than Arrays!](checklist/mapping-instead-of-array.md)
 
-Use private instead of public for constants/immutable
+14. Use private instead of public for constants/immutable
 
-immutable and constant
+15. immutable and constant
 
-keccak256() should only need to be called on a specific string literal once
+16. keccak256() should only need to be called on a specific string literal once
 
-Use assembly to write storage values
+17. Use assembly to write storage values
 
-Use assembly balance ETH
+18. Use assembly balance ETH
 
-Use assembly to check for address(0)
+19. Use assembly to check for address(0)
 
-Use assembly for math (add, sub, mul, div)
+20. Use assembly for math (add, sub, mul, div)
 
-Use assembly to hash
+21. Use assembly to hash
 
-Don’t use SafeMath lib 0.8.0~
+22. Don’t use SafeMath lib 0.8.0~
 
-Now receive ETH best practice
+23. Now receive ETH best practice
 
-Use abi.encodePacked() not abi.encode()
+24. Use abi.encodePacked() not abi.encode()
 
-Optimizer
+25. Optimizer
 
-Solidity Version should be the latest
+26. Solidity Version should be the latest
 
-State var only set in the constructor should be immutable
+27. State var only set in the constructor should be immutable
 
-Empty blocks should be removed or emit something
+28. Empty blocks should be removed or emit something
 
-Loop best practice
+29. Loop best practice
 
-Unchecked v 0.8.0~
+30. Unchecked v 0.8.0~
 
-Don’t using .length
+31. Don’t using .length
 
-Use else if instead of if,if,if
+32. Use else if instead of if,if,if
 
-Payable is cheap use for only… func
+33. Payable is cheap use for only… func
 
-Use struct for the args of batch func
+34. Use struct for the args of batch func
 
-Provide methods for batch operations
+35. Provide methods for batch operations
 
-The order of function names
+36. The order of function names
 
-Make fewer external calls
+37. Make fewer external calls
 
-Swap two values (a,b)=(b,a)
+38. Swap two values (a,b)=(b,a)
 
-Internal functions only called once can be inlined to save gas
+39. Internal functions only called once can be inlined to save gas
 
-private functions must use by own contract
+40. private functions must use by own contract
 
-To be simple by internal func
+41. To be simple by internal func
 
-error Titled;> require()
+42. error Titled;> require()
 
-Splitting require() statements that use && saves gas
+43. Splitting require() statements that use && saves gas
 
-More than 32 String is high gas
+44. More than 32 String is high gas
 
-comparision >= use less gas than >
+45. comparision >= use less gas than >
 
-NonZero is cheaper than Zero
+46. NonZero is cheaper than Zero
 
-Use ++i in increasing value
+47. Use ++i in increasing value
 
-Use Shift Right/Left instead of Division/Multiplication 2X
+48. Use Shift Right/Left instead of Division/Multiplication 2X
 
-Use != 0 instead of > 0 for Unsigned Integer Comparison
+49. Use != 0 instead of > 0 for Unsigned Integer Comparison
 
-Short-circuit with || and &&
+50. Short-circuit with || and &&
 
-Use x=x+y instad of x+=y
+51. Use x=x+y instad of x+=y
 
-Stack variable used as a cheaper cache for a state variable is only used once
+52. Stack variable used as a cheaper cache for a state variable is only used once
 
-calldata instead of memory
+53. calldata instead of memory
 
-Using STORAGE instead of memory for struct/arrays saves gas
+54. Using STORAGE instead of memory for struct/arrays saves gas
 
-Use MLOAD instead of SLOAD(not using directly storage value)
+55. Use MLOAD instead of SLOAD(not using directly storage value)
 
-Use bytesX instead of string
+56. Use bytesX instead of string
 
-Use “uint256” instead of “bool”
+57. Use “uint256” instead of “bool”
 
-Use “indexed” for uint, bool, and address
+58. Use “indexed” for uint, bool, and address
 
 ## Disclaimer
 
