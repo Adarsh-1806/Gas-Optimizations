@@ -12,6 +12,10 @@ This Repository contains gas optimised techniques for solidity smart contracts.
 
 [Don't Initialize Variables with Default Value](checklist/default-assign.md)
 
+[Use External instead of Public if possible](checklist/external-instead-of-public.md)
+
+[Use indexed events](checklist/use-indexed-events.md)
+
 Constructor parameters should be avoided when possible
 
 Multiple address mappings can be combined into a single mapping of an address to a struct, where appropriate
@@ -22,7 +26,7 @@ uints/ints smaller than 32 bytes incurs overhead
 
 Instead of address(0) write it out, it saves gas
 
-Mappings are cheaper than Arrays!
+[Mappings are cheaper than Arrays!](checklist/mapping-instead-of-array.md)
 
 Use private instead of public for constants/immutable
 
