@@ -16,11 +16,11 @@ This Repository contains gas optimised techniques for solidity smart contracts.
 
 7. [Use indexed events](checklist/use-indexed-events.md)
 
-8. Constructor parameters should be avoided when possible
+8. [Constructor parameters should be avoided when possible](checklist/constructor-params-should-be-avoided.md)
 
-9. Multiple address mappings can be combined into a single mapping of an address to a struct, where appropriate
+9. [Multiple address mappings can be combined into a single mapping of an address to a struct, where appropriate](checklist/combine-multiple-mapping.md)
 
-10. Use 10e18 instead of 10\*\*X
+10. [Use 10e18 instead of 10\*\*X](checklist/use-10eX.md)
 
 11. uints/ints smaller than 32 bytes incurs overhead
 
@@ -117,6 +117,8 @@ This Repository contains gas optimised techniques for solidity smart contracts.
 57. Use “uint256” instead of “bool”
 
 58. Use “indexed” for uint, bool, and address
+
+59. Use variable instead of msg.sender
 
 ## Disclaimer
 
