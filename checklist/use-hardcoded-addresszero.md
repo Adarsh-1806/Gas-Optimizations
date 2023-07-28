@@ -2,4 +2,4 @@
 
 Instead of `address(0)` use hardcoded zero address. It saves gas.
 
-![Alt text](images/image.png)
+![Alt text](images/zero-address.png)
