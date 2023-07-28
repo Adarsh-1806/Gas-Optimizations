@@ -22,13 +22,13 @@ This Repository contains gas optimised techniques for solidity smart contracts.
 
 10. [Use 10e18 instead of 10\*\*X](checklist/use-10eX.md)
 
-11. uints/ints smaller than 32 bytes incurs overhead
+11. [uints/ints smaller than 32 bytes incurs overhead](checklist/smaller-than-32-bytes-incurs-overhead.md)
 
-12. Instead of address(0) write it out, it saves gas
+12. [Instead of address(0) write it out, it saves gas](checklist/use-hardcoded-addresszero.md)
 
 13. [Mappings are cheaper than Arrays!](checklist/mapping-instead-of-array.md)
 
-14. Use private instead of public for constants/immutable
+14. [Use private instead of public for constants/immutable](checklist/use-private-for-constant-immutable.md)
 
 15. immutable and constant
 
