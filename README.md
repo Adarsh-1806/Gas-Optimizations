@@ -30,7 +30,7 @@ This Repository contains gas optimised techniques for solidity smart contracts.
 
 14. [Use private instead of public for constants/immutable](checklist/use-private-for-constant-immutable.md)
 
-15. immutable and constant
+15. [immutable and constant](checklist/immutable-and-constant.md)
 
 16. keccak256() should only need to be called on a specific string literal once
 
