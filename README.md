@@ -34,7 +34,7 @@ This Repository contains gas optimised techniques for solidity smart contracts.
 
 16. keccak256() should only need to be called on a specific string literal once
 
-17. Use assembly to write storage values
+17. [Use assembly to write storage values](checklist/use-assembly-to-write-storage-value.md)
 
 18. Use assembly balance ETH
 
