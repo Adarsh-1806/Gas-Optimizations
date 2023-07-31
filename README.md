@@ -36,7 +36,7 @@ This Repository contains gas optimised techniques for solidity smart contracts.
 
 17. [Use assembly to write storage values](checklist/use-assembly-to-write-storage-value.md)
 
-18. Use assembly balance ETH
+18. [Use assembly balance ETH](checklist/use-assembly-balance.md)
 
 19. Use assembly to check for address(0)
 
