@@ -38,7 +38,7 @@ This Repository contains gas optimised techniques for solidity smart contracts.
 
 18. [Use assembly balance ETH](checklist/use-assembly-balance.md)
 
-19. Use assembly to check for address(0)
+19. [Use assembly to check for address(0)](checklist/use-assembly-to-check-address-zero.md)
 
 20. Use assembly for math (add, sub, mul, div)
 
