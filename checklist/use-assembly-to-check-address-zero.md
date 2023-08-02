@@ -18,7 +18,7 @@ contract GasTest is DSTest {
 
 contract Contract0 {
     function ownerNotZero(address _addr) public pure {
-        require(_addr != address(0), "zero address)");
+        require(_addr != address(0), "zero address");
     }
 }
 
