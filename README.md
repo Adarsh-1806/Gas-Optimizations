@@ -64,7 +64,7 @@ This Repository contains gas optimised techniques for solidity smart contracts.
 
 31. Don’t using .length
 
-32. Use else if instead of if,if,if
+32. [Use else if instead of if,if,if](checklist/use-else-instead-of-if-if.md)
 
 33. Payable is cheap use for only… func
 
